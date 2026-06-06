@@ -227,11 +227,11 @@ export default function Home() {
                   >
                     <div className="overflow-hidden">
                       <div className="border-t border-slate-100/50 p-6 pt-4 text-sm leading-relaxed text-slate-600 md:text-base">
-                        <p className="clay-inset-white p-5 text-slate-700 bg-white/40">
+                        <div className="clay-inset-white p-5 text-slate-700 bg-white/40">
                           <pre className="whitespace-pre-line font-sans text-xl font-normal">
                             {item.content}
                           </pre>
-                        </p>
+                        </div>
                       </div>
                     </div>
                   </div>
