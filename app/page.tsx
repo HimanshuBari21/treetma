@@ -351,7 +351,7 @@ export default function Home() {
                     </span>
                   </div>
                   <h4 className="mb-2 font-display text-base font-extrabold text-slate-900">
-                    ऑडियो पॉडकास्ट: हिंदी संस्करण
+                    ऑडियो पॉडकास्ट: <br /> हिंदी संस्करण
                   </h4>
                   <p className="mb-4 text-xs leading-relaxed text-slate-600">
                     कैलाश और ट्रीआत्मा की कहानी को हिंदी भाषा में सुनें, जो
@@ -382,7 +382,7 @@ export default function Home() {
                     </span>
                   </div>
                   <h4 className="mb-2 font-display text-base font-extrabold text-slate-900">
-                    ऑडिओ पॉडकास्ट: मराठी आवृत्ती
+                    ऑडिओ पॉडकास्ट: <br /> मराठी आवृत्ती
                   </h4>
                   <p className="mb-4 text-xs leading-relaxed text-slate-600">
                     कैलास आणि ट्रीआत्माची ही जादुई कथा मराठीत अनुभवा, जिथे
