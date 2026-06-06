@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌳 Treetma
 
-## Getting Started
+Welcome to **Treetma**, a magical interactive website that tells the story of mystical, shape-shifting forest spirits who live and swap between the trees of the Whispering Canopy.
 
-First, run the development server:
+## ✨ The Story of Treetma
+
+Treetma are glowing, bioluminescent creatures of pure energy. Lacking a single permanent form, they cannot survive outside their tree hosts. To stay alive and spread vitality through the forest, they constantly migrate and bond with trees:
+
+- **Root-to-Root (The Mycelial Transit):** Swapping through the soil's mycorrhizal mycelium network (the "wood wide web").
+- **Branch-to-Branch (The Canopy Spark):** Leaping through the high canopy under moonlit skies as glowing pollen spores.
+- **Heartwood Bond (The Harmony of Trees):** Coexisting with host trees and pulling together to heal sick trees.
+- **Star-to-Canopy (The Celestial Echo):** Building resonant bridges of light with the stars to swap across vast forest distances.
+
+---
+
+## 🎨 Design System: Claymorphism
+
+The website is designed using a **Claymorphism** aesthetic, giving it a friendly, tactile, and premium 3D feel. Key characteristics of the styling system include:
+
+- **Rounded Corners:** Generous border-radius (`rounded-[28px]`, `rounded-2xl`) to evoke organic, clay-like shapes.
+- **Double Inset Shadows:** Top-left white highlights and bottom-right dark/colored shadow boundaries (`inset 4px 4px 8px rgba(255,255,255,0.9)` and `inset -6px -6px 12px rgba(...)`).
+- **Floating Outer Shadows:** Soft, diffuse drop shadows that make components appear to hover above the pastel-toned background.
+- **Harmonious Pastel Colors:**
+  - 🍃 **Sage & Mint Greens** representing the Elder Oak.
+  - 🍂 **Amber & Gold Tans** representing the Sun Birch.
+  - 🔮 **Lavender & Purple Violets** representing the Dreamwood.
+  - 🌌 **Celestial Blue & Indigo** representing the Stardust Pines.
+- **Smooth Micro-Animations:** Floating spirits, swaying trees, pulsing glows, and height-expanding grid accordions.
+
+---
+
+## 🚀 Getting Started
+
+First, install dependencies (if you haven't already):
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next, start the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the interactive application.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Architecture & Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **[app/page.tsx](file:///Users/himanshu/Desktop/learning-stuffs/treetma/app/page.tsx):** Contains the core layout, interactive playground state (Treetma spirit active positions), and state-controlled accordions.
+- **[app/globals.css](file:///Users/himanshu/Desktop/learning-stuffs/treetma/app/globals.css):** Defines CSS variables, keyframe animations, and custom claymorphic container/button utilities.
